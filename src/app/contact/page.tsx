@@ -98,10 +98,10 @@ export default function ContactPage() {
             </div>
 
             {/* Map Placeholder */}
-            <div className="aspect-video w-full bg-neutral-700 rounded-lg">
+            <div className=" w-full h-96  bg-neutral-700 rounded-lg">
               <MapContainer
                 center={[44.6899673, -63.68741]}
-                zoom={13}
+                zoom={20}
                 style={{ height: "100%", width: "100%" }}
               >
                 <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
