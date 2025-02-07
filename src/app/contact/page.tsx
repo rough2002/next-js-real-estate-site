@@ -1,5 +1,4 @@
 "use client";
-
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -9,7 +8,24 @@ import {
   Linkedin,
   PhoneIcon as WhatsApp,
 } from "lucide-react";
-import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
+import dynamic from "next/dynamic";
+
+// Dynamically import the MapContainer from react-leaflet to disable SSR (Server-Side Rendering)
+const MapContainer = dynamic(
+  () => import("react-leaflet").then((mod) => mod.MapContainer),
+  { ssr: false }
+);
+const Marker = dynamic(
+  () => import("react-leaflet").then((mod) => mod.Marker),
+  { ssr: false }
+);
+const Popup = dynamic(() => import("react-leaflet").then((mod) => mod.Popup), {
+  ssr: false,
+});
+const TileLayer = dynamic(
+  () => import("react-leaflet").then((mod) => mod.TileLayer),
+  { ssr: false }
+);
 
 export default function ContactPage() {
   return (
