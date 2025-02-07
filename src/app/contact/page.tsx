@@ -8,24 +8,24 @@ import {
   Linkedin,
   PhoneIcon as WhatsApp,
 } from "lucide-react";
-import dynamic from "next/dynamic";
+// import dynamic from "next/dynamic";
 
 // Dynamically import the MapContainer from react-leaflet to disable SSR (Server-Side Rendering)
-const MapContainer = dynamic(
-  () => import("react-leaflet").then((mod) => mod.MapContainer),
-  { ssr: false }
-);
-const Marker = dynamic(
-  () => import("react-leaflet").then((mod) => mod.Marker),
-  { ssr: false }
-);
-const Popup = dynamic(() => import("react-leaflet").then((mod) => mod.Popup), {
-  ssr: false,
-});
-const TileLayer = dynamic(
-  () => import("react-leaflet").then((mod) => mod.TileLayer),
-  { ssr: false }
-);
+// const MapContainer = dynamic(
+//   () => import("react-leaflet").then((mod) => mod.MapContainer),
+//   { ssr: false }
+// );
+// const Marker = dynamic(
+//   () => import("react-leaflet").then((mod) => mod.Marker),
+//   { ssr: false }
+// );
+// const Popup = dynamic(() => import("react-leaflet").then((mod) => mod.Popup), {
+//   ssr: false,
+// });
+// const TileLayer = dynamic(
+//   () => import("react-leaflet").then((mod) => mod.TileLayer),
+//   { ssr: false }
+// );
 
 export default function ContactPage() {
   return (
@@ -98,7 +98,7 @@ export default function ContactPage() {
             </div>
 
             {/* Map Placeholder */}
-            <div className=" w-full h-96  bg-neutral-700 rounded-lg">
+            {/* <div className=" w-full h-96  bg-neutral-700 rounded-lg">
               <MapContainer
                 center={[44.6899673, -63.68741]}
                 zoom={20}
@@ -111,7 +111,7 @@ export default function ContactPage() {
                   </Popup>
                 </Marker>
               </MapContainer>
-            </div>
+            </div> */}
 
             {/* Social Links */}
             <div className="flex gap-4">
