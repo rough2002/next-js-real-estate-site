@@ -41,7 +41,7 @@ export default function ContactPage() {
               <div>
                 <Input
                   placeholder="Full Name"
-                  className="bg-neutral-800 border-amber-500 text-white placeholder:text-neutral-400"
+                  className="bg-neutral-800 border-teal-500 text-white placeholder:text-neutral-400"
                   required
                 />
               </div>
@@ -49,21 +49,21 @@ export default function ContactPage() {
                 <Input
                   type="email"
                   placeholder="Email"
-                  className="bg-neutral-800 border-amber-500 text-white placeholder:text-neutral-400"
+                  className="bg-neutral-800 border-teal-500 text-white placeholder:text-neutral-400"
                   required
                 />
                 <Input
                   type="tel"
                   placeholder="Phone No"
-                  className="bg-neutral-800 border-amber-500 text-white placeholder:text-neutral-400"
+                  className="bg-neutral-800 border-teal-500 text-white placeholder:text-neutral-400"
                   required
                 />
               </div>
               <Textarea
                 placeholder="Message"
-                className="min-h-[150px] bg-neutral-800 border-amber-500 text-white placeholder:text-neutral-400"
+                className="min-h-[150px] bg-neutral-800 border-teal-500 text-white placeholder:text-neutral-400"
               />
-              <Button className="w-full bg-amber-500 hover:bg-amber-600 h-14 font-semibold text-white text-xl">
+              <Button className="w-full bg-teal-500 hover:bg-teal-600 h-14 font-semibold text-white text-xl">
                 Send
               </Button>
             </form>
@@ -76,7 +76,7 @@ export default function ContactPage() {
               <p>
                 <a
                   href="tel:+1902-989-5205"
-                  className="hover:text-amber-500 text-xl"
+                  className="hover:text-teal-500 text-xl"
                 >
                   + 1 (902) 989-5205
                 </a>
@@ -84,7 +84,7 @@ export default function ContactPage() {
               <p>
                 <a
                   href="mailto:contact@example.com"
-                  className="hover:text-amber-500 text-xl"
+                  className="hover:text-teal-500 text-xl"
                 >
                   info@sachdevgroup.ca
                 </a>
@@ -115,16 +115,16 @@ export default function ContactPage() {
 
             {/* Social Links */}
             <div className="flex gap-4">
-              <a href="#" className="text-white hover:text-amber-500">
+              <a href="#" className="text-white hover:text-teal-500">
                 <Facebook className="h-6 w-6" />
               </a>
-              <a href="#" className="text-white hover:text-amber-500">
+              <a href="#" className="text-white hover:text-teal-500">
                 <WhatsApp className="h-6 w-6" />
               </a>
-              <a href="#" className="text-white hover:text-amber-500">
+              <a href="#" className="text-white hover:text-teal-500">
                 <Instagram className="h-6 w-6" />
               </a>
-              <a href="#" className="text-white hover:text-amber-500">
+              <a href="#" className="text-white hover:text-teal-500">
                 <Linkedin className="h-6 w-6" />
               </a>
             </div>

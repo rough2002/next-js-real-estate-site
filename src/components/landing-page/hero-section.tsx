@@ -92,7 +92,7 @@ export default function HeroSection() {
           <Button
             size="lg"
             onClick={handleButtonClick}
-            className="bg-amber-500 text-white font-semibold py-3 px-6 rounded-lg hover:bg-amber-600 transition md:h-16 border-white border-1 text-lg"
+            className="bg-teal-500 text-white font-semibold py-3 px-6 rounded-lg hover:bg-teal-600 transition md:h-16 border-white border-1 text-lg"
           >
             Browse Luxury Homes
             <ArrowRight size={20} />

@@ -34,7 +34,7 @@ export default function Services() {
             id="el-yykdtjf6"
           >
             <div
-              className="bg-amber-500 w-16 h-16 rounded-lg flex items-center justify-center mb-6"
+              className="bg-teal-500 w-16 h-16 rounded-lg flex items-center justify-center mb-6"
               id="el-heemkyoi"
             >
               <svg
@@ -66,7 +66,7 @@ export default function Services() {
             <ul className="space-y-3 text-neutral-300" id="el-p2qj9bbp">
               <li className="flex items-center" id="el-gz56eiof">
                 <svg
-                  className="w-5 h-5 text-amber-500 mr-3"
+                  className="w-5 h-5 text-teal-500 mr-3"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -84,7 +84,7 @@ export default function Services() {
               </li>
               <li className="flex items-center" id="el-fdo2r1yt">
                 <svg
-                  className="w-5 h-5 text-amber-500 mr-3"
+                  className="w-5 h-5 text-teal-500 mr-3"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -102,7 +102,7 @@ export default function Services() {
               </li>
               <li className="flex items-center" id="el-0lrgsxiv">
                 <svg
-                  className="w-5 h-5 text-amber-500 mr-3"
+                  className="w-5 h-5 text-teal-500 mr-3"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -126,7 +126,7 @@ export default function Services() {
             id="el-tii1wyrx"
           >
             <div
-              className="bg-amber-500 w-16 h-16 rounded-lg flex items-center justify-center mb-6"
+              className="bg-teal-500 w-16 h-16 rounded-lg flex items-center justify-center mb-6"
               id="el-h1tfj5vc"
             >
               <svg
@@ -158,7 +158,7 @@ export default function Services() {
             <ul className="space-y-3 text-neutral-300" id="el-k85j0bhs">
               <li className="flex items-center" id="el-qf521c43">
                 <svg
-                  className="w-5 h-5 text-amber-500 mr-3"
+                  className="w-5 h-5 text-teal-500 mr-3"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -176,7 +176,7 @@ export default function Services() {
               </li>
               <li className="flex items-center" id="el-l3bzmwn9">
                 <svg
-                  className="w-5 h-5 text-amber-500 mr-3"
+                  className="w-5 h-5 text-teal-500 mr-3"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -194,7 +194,7 @@ export default function Services() {
               </li>
               <li className="flex items-center" id="el-u34ntmp2">
                 <svg
-                  className="w-5 h-5 text-amber-500 mr-3"
+                  className="w-5 h-5 text-teal-500 mr-3"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -218,7 +218,7 @@ export default function Services() {
             id="el-yxs4ymca"
           >
             <div
-              className="bg-amber-500 w-16 h-16 rounded-lg flex items-center justify-center mb-6"
+              className="bg-teal-500 w-16 h-16 rounded-lg flex items-center justify-center mb-6"
               id="el-ofuz6n2j"
             >
               <svg
@@ -250,7 +250,7 @@ export default function Services() {
             <ul className="space-y-3 text-neutral-300" id="el-ohycfwad">
               <li className="flex items-center" id="el-4w8mk2g0">
                 <svg
-                  className="w-5 h-5 text-amber-500 mr-3"
+                  className="w-5 h-5 text-teal-500 mr-3"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -268,7 +268,7 @@ export default function Services() {
               </li>
               <li className="flex items-center" id="el-kilwjmr5">
                 <svg
-                  className="w-5 h-5 text-amber-500 mr-3"
+                  className="w-5 h-5 text-teal-500 mr-3"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -286,7 +286,7 @@ export default function Services() {
               </li>
               <li className="flex items-center" id="el-rb4fa9vl">
                 <svg
-                  className="w-5 h-5 text-amber-500 mr-3"
+                  className="w-5 h-5 text-teal-500 mr-3"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -309,7 +309,7 @@ export default function Services() {
         <div className="text-center mt-12" id="el-yllftciz">
           <Link
             href="/contact"
-            className="inline-block bg-amber-500 text-white px-8 py-3 rounded-lg hover:bg-amber-600 transition duration-300"
+            className="inline-block bg-teal-500 text-white px-8 py-3 rounded-lg hover:bg-teal-600 transition duration-300"
             id="el-v61rbviv"
           >
             Schedule a Consultation

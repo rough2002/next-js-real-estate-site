@@ -43,7 +43,7 @@ export const AnimatedCounter = ({
   }, [springValue]);
 
   return (
-    <motion.span ref={ref} className="text-amber-500 font-bold text-4xl">
+    <motion.span ref={ref} className="text-teal-500 font-bold text-4xl">
       {displayValue}
     </motion.span>
   );

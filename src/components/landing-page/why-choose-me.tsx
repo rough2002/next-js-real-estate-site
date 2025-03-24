@@ -32,7 +32,7 @@ export default function WhyChooseMe() {
             viewport={{ once: true }}
             className="text-center max-w-2xl"
           >
-            <h2 className="text-3xl font-bold mb-4 text-amber-500">
+            <h2 className="text-3xl font-bold mb-4 text-teal-500">
               Jatender Sachdev
             </h2>
             <p className="text-lg mb-6">
@@ -53,25 +53,25 @@ export default function WhyChooseMe() {
           <h3 className="text-2xl font-bold mb-6 text-center">My Expertise</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
             <div className="flex flex-col items-center">
-              <p className="text-amber-500 font-bold text-4xl">
+              <p className="text-teal-500 font-bold text-4xl">
                 <AnimatedCounter value={10} duration={4} />+
               </p>
               <p className="text-gray-400 text-lg">Years of Experience</p>
             </div>
             <div className="flex flex-col items-center">
-              <p className="text-amber-500 font-bold text-4xl">
+              <p className="text-teal-500 font-bold text-4xl">
                 <AnimatedCounter value={500} duration={2} />+
               </p>
               <p className="text-gray-400 text-lg">Happy Clients</p>
             </div>
             <div className="flex flex-col items-center">
-              <p className="text-amber-500 font-bold text-4xl">
+              <p className="text-teal-500 font-bold text-4xl">
                 <AnimatedCounter value={100} duration={2} />+
               </p>
               <p className="text-gray-400 text-lg">Properties Sold</p>
             </div>
             {/* <div className="flex flex-col items-center">
-              <p className="text-amber-500 font-bold text-4xl">
+              <p className="text-teal-500 font-bold text-4xl">
                 $
                 <AnimatedCounter value={50} duration={2} />
                 M+
@@ -129,7 +129,7 @@ export default function WhyChooseMe() {
           </div>
           {/* <Button
             size="lg"
-            className="bg-amber-500 text-black hover:bg-amber-600 md:h-16 w-min font-semibold text-lg mt-2"
+            className="bg-teal-500 text-black hover:bg-teal-600 md:h-16 w-min font-semibold text-lg mt-2"
           >
             Schedule a Consultation
           </Button> */}
