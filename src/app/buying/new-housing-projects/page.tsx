@@ -92,6 +92,9 @@ export default function FirstTimeBuyerGuide() {
           <ConsultExpert />
         </AuroraBackground>
       </div>
+      <div className="lg:hidden">
+        <ConsultExpert />
+      </div>
       <div className="px-6 lg:px-24 py-6 mt-16 mb-12">
         <h1 className="text-3xl font-bold text-center mb-6">
           Exploring New and Established Communities in Halifax
@@ -152,10 +155,6 @@ export default function FirstTimeBuyerGuide() {
             </p>
           </div>
         </div>
-      </div>
-
-      <div className="lg:hidden">
-        <ConsultExpert />
       </div>
       <ConsultationForm />
     </>
