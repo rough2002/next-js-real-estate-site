@@ -1,12 +1,15 @@
 import React from "react";
 import ContactForm from "../common/contact-forn";
+interface Props {
+  heading?: string;
+}
 
-export default function ConsultationForm() {
+export default function ConsultationForm({ heading }: Props) {
   return (
     <div className="flex flex-col lg:flex-row justify-center items-center gap-12 lg:gap-24 px-6 py-12 lg:px-24 lg:py-20 bg-gray-50 text-lg">
       <div className="text-center lg:text-left">
         <h2 className="text-3xl lg:text-4xl font-bold mb-4">
-          Book A Buyer&apos;s Consultation
+          {heading || "Book A Buyer&apos;s Consultation"}
         </h2>
         <p className="text-gray-600">
           Let&apos;s get in touch and discuss your requirements!
