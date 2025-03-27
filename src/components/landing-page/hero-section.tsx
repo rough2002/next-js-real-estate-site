@@ -18,7 +18,6 @@ export default function HeroSection() {
   const router = useRouter();
 
   const handleButtonClick = () => {
-    // Navigate to /listings page when button is clicked
     router.push("/listings");
   };
 
