@@ -1,5 +1,7 @@
 import ConsultationForm from "@/components/buying-module/buying-consulation-form";
 import HomeSearchSteps from "@/components/buying-module/home-search-steps";
+import ConsultExpert from "@/components/common/consult-expert";
+import { AuroraBackground } from "@/components/ui/aurora-background";
 import Image from "next/image";
 
 export default function BuyingPage() {
@@ -37,6 +39,14 @@ export default function BuyingPage() {
           </div>
         </div>
       </section>
+      <div className="lg:block hidden">
+        <AuroraBackground>
+          <ConsultExpert />
+        </AuroraBackground>
+      </div>
+      <div className="lg:hidden">
+        <ConsultExpert />
+      </div>
       <section className="bg-gray-50 py-16 px-6 lg:px-24 text-lg">
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
@@ -47,12 +57,11 @@ export default function BuyingPage() {
             out of finding the perfect real estate.
           </p>
         </div>
-
         <div className="flex flex-col items-center lg:flex-row justify-center  gap-24">
           {/* Card 1 */}
           <div className="flex flex-col items-center text-center max-w-sm">
             <Image
-              src="/first-time-home-buyers.jpg"
+              src="/images/house-listing.jpg"
               width={350}
               height={250}
               alt="First Time Home Buyers"
@@ -73,7 +82,7 @@ export default function BuyingPage() {
           {/* Card 2 */}
           <div className="flex flex-col items-center text-center max-w-sm">
             <Image
-              src="/military-relocation.jpg"
+              src="/images/military-relocation.jpg"
               width={350}
               height={250}
               alt="Military Relocation"
